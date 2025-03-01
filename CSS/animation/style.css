@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    width: 100%;
+    height: 100%;
+    padding: 2vw
+}
+
+/* #box{
+    height: 300px;
+    width: 300px;
+    background-color: cadetblue;
+    position: absolute;
+    animation-name: anime;
+    animation-duration: 2s;
+    animation-delay: 1s;
+} */
+img{
+    color: aqua;
+    border-radius: 50%;
+    /* background-color:aquamarine ; */
+    animation-name: anime;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    /* padding: 2vw; */
+}
+@keyframes anime {
+    from{
+        /* left: 0; */
+        rotate: 0;
+        /* background-color: red; */
+    }
+    to{
+        /* left: 60%; */
+        rotate: -360deg;
+        /* background-color: blue; */
+    }
+}
+

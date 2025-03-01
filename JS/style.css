@@ -1,0 +1,61 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html , body{
+    padding: 10px;
+    height: 100%;
+    width: 100%;
+    font-family: "Gilroy";
+}
+
+img{
+    height: 40%;
+    width: 60%;
+    object-fit: cover;
+}
+
+#tabs{
+    display: flex;
+    padding: 20px;
+}
+.tab{
+    margin: 20px;
+    padding: 10px;
+    border-radius: 4px;
+    font-family: Gilroy;
+    font-weight: 700;
+    background-color: rgba(231, 231, 74, 0.658);
+
+}
+
+.text{
+    /* display : none; */
+    width: 60%;
+    display: none;
+}
+
+
+#center{
+    position: absolute;
+    
+    left: 50%;
+}
+#center h4{
+    opacity: 0;
+}
+#downloadCapsule{
+    width: 300px;
+    height: 10px;
+    background-color: #dadada;
+    border-radius: 100px;
+}
+#progress{
+    transition: all cubic-bezier(0.19, 1, 0.22, 1) 0.2s;
+    height: 100%;
+    width: 0%;
+    background-color: green;
+    border-radius: 100px;
+}
