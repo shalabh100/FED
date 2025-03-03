@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    width: 100%;
+    height: 100%;
+    font-family: Gilroy;
+}
+body{
+    overflow-x: hidden;
+}
+
+#page1{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(204, 48, 147, 0.588);
+    position: relative;
+}
+#page2{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(152, 204, 48, 0.588);
+    position: relative;
+}
+#page3{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(48, 116, 204, 0.588);
+    position: relative;
+}
+
+#circle1{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    background: linear-gradient(rgb(45, 45, 176),green);
+    position: absolute;
+    top: calc(50% - 125px);
+    left: calc(50% - 125px);
+}
+#circle2{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    background: linear-gradient(rgb(172, 45, 176),rgb(184, 180, 78));
+    position: absolute;
+    top: calc(50% - 125px);
+    left: calc(50% - 125px);
+}
+#circle3{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    background: linear-gradient(rgb(43, 149, 131),rgb(117, 19, 73));
+    position: absolute;
+    top: calc(50% - 125px);
+    left: calc(50% - 125px);
+}
+
+#page4{
+    width: 100%;
+    height: 100%;
+    background-color: antiquewhite;
+    position: relative;
+}
+
+#page4 img{
+    height: 100%;
+    width: 15%;
+    object-fit: cover;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+    /* display: none; */
+    
+}
+
+#page5{
+    width: 100%;
+    height: 200%;
+    background: linear-gradient(rgb(0, 242, 255), rgb(0, 6, 128),pink);
+    position: relative;
+}
+
+#page5 h1{
+    font-size: 80vh;
+    font-family: Arvo;
+    font-weight: 400
+}
